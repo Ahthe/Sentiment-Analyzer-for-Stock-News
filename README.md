@@ -45,6 +45,6 @@ Setting up this tool is as easy as pie! 🍰
   ```sh
   pip install pandas matplotlib beautifulsoup4 nltk
   
--Run the script:
+- Run the script:
 ```sh
 python sentiment_analyzer.py
