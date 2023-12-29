@@ -19,15 +19,17 @@ No more sifting through endless paragraphs. Now, getting the sentiment is just a
   ```python
   req = Request(url=url, headers={'user-agent': USER_AGENT})
   response = urlopen(req)
-  
-Sentiment analysis using NLTK:
-vader = SentimentIntensityAnalyzer()
-df['compound'] = df['title'].apply(lambda title: vader.polarity_scores(title)['compound'])
 
-Data visualization with Matplotlib:
-mean_df.plot(kind='bar', figsize=(10, 8))
+- Sentiment analysis using `NLTK`:
+  ```python
+  vader = SentimentIntensityAnalyzer()
+  df['compound'] = df['title'].apply(lambda title: vader.polarity_scores(title)['compound'])
 
-Setup
+- Data visualization with `Matplotlib`:
+  ```python
+  mean_df.plot(kind='bar', figsize=(10, 8))
+
+#Setup
 Setting up this tool is as easy as pie! 🍰
 
 1. Clone the repo:
