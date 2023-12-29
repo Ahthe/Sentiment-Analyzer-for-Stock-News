@@ -1,3 +1,6 @@
+# Ahthesham Ali Syed.
+# 12-09-2023.
+# Sentiment Analyzer for Stock News.
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
