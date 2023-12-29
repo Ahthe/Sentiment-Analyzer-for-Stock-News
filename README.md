@@ -47,4 +47,4 @@ Setting up this tool is as easy as pie! 🍰
   
 - Run the script:
 ```sh
-python sentiment_analyzer.py
+  python sentiment_analyzer.py
