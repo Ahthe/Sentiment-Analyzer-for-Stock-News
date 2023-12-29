@@ -1,6 +1,6 @@
 # Sentiment Analyzer for Stock News 📈
 
-Hey there! My name is Syed Ahthesham Ali I'm a recent graduate who's fascinated by the intersection of technology and finance. This project is a reflection of my journey learning web scraping and sentiment analysis—two powerful techniques that I believe can make a difference in the fast-paced world of stock investing. 🚀
+Hey there! My name is Syed Ahthesham Ali I'm a recent CS graduate from University of Mount Union who's fascinated by the intersection of technology and finance. This project is a reflection of my journey learning web scraping and sentiment analysis—two powerful techniques that I believe can make a difference in the fast-paced world of stock investing. 🚀
 
 Like many families, mine is interested in the stock market. But we often found ourselves overwhelmed by lengthy articles, and the sheer effort of discerning the market sentiment from them was pretty daunting. Enter the "Sentiment Analyzer for Stock News": a tool designed to cut through the noise and provide clear insights into market sentiment. 📰➡️😃 or 😟
 
