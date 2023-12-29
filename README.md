@@ -29,7 +29,8 @@ No more sifting through endless paragraphs. Now, getting the sentiment is just a
   ```python
   mean_df.plot(kind='bar', figsize=(10, 8))
 
-#Setup
+# Setup
+
 Setting up this tool is as easy as pie! 🍰
 
 1. Clone the repo:
