@@ -33,11 +33,18 @@ No more sifting through endless paragraphs. Now, getting the sentiment is just a
 
 Setting up this tool is as easy as pie! 🍰
 
-1. Clone the repo:
-git clone https://github.com/<your-username>/<repository-name>.git
+-  **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/Sentiment-Analyzer-for-Stock-News.git
 
-2. Install the required libraries:
-pip install -r requirements.txt
+- Navigate to the project directory:
+  ```sh
+  cd Sentiment-Analyzer-for-Stock-News
 
-3. Run the script:
-python sentiment_analyzer.py
+- Install the required libraries:
+  ```sh
+  pip install pandas matplotlib beautifulsoup4 nltk
+  
+- Run the script:
+```sh
+  python sentiment_analyzer.py
