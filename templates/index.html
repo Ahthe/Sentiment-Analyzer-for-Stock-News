@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Stock Sentiment Analysis Tool</h1>
+            <p>Enter the stock tickers you want to analyze and get insights into the sentiment trends.</p>
+            <form action="/analyze" method="post">
+                <input type="text" id="tickers" name="tickers" placeholder="Enter stock tickers (comma-separated)" required>
+                <input type="submit" value="Analyze">
+            </form>
+        </div>
+
+        <div class="token-list">
+            <h2>Popular Tokens</h2>
+            <div class="token-grid">
+                <div class="token-item">
+                    <div class="token-name">AAPL</div>
+                    <div class="company-name">Apple Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">GOOGL</div>
+                    <div class="company-name">Alphabet Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">AMZN</div>
+                    <div class="company-name">Amazon.com, Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">MSFT</div>
+                    <div class="company-name">Microsoft Corporation</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">META</div>
+                    <div class="company-name">META, Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">TSLA</div>
+                    <div class="company-name">Tesla, Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">NFLX</div>
+                    <div class="company-name">Netflix, Inc.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">NVDA</div>
+                    <div class="company-name">NVIDIA Corporation</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">JPM</div>
+                    <div class="company-name">JPMorgan Chase & Co.</div>
+                </div>
+                <div class="token-item">
+                    <div class="token-name">V</div>
+                    <div class="company-name">Visa Inc.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
